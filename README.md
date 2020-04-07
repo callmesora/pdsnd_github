@@ -10,10 +10,10 @@ Python code to import US bike share data and answer interesting questions about 
 
 
 ### Files used
-bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
+-bikeshare.py
+-chicago.csv
+-new_york_city.csv
+-washington.csv
 
 ### Credits
 Udacity mentors on the knowledge section helped a bunch, so big kuddos to them!
