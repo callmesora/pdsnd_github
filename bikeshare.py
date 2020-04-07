@@ -120,13 +120,13 @@ def station_stats(df):
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
-    # TO DO: display most commonly used start station
+    
     mc_start_station=df['Start Station'].value_counts().idxmax()
     print('Most Common Start Staton: {}'.format(mc_start_station))
-    # TO DO: display most commonly used end station
+    
     mc_end_station=df['End Station'].value_counts().idxmax()
     print('Most Common End Station: {}'.format(mc_end_station))
-    # TO DO: display most frequent combination of start station and end station trip
+    
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -139,11 +139,11 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # TO DO: display total travel time
+    #  display total travel time
     total_travel_time=df['Trip Duration'].sum()
     print('Total Travel Time: {}'.format(total_travel_time))
 
-    # TO DO: display mean travel time
+    # display mean travel time
     mean_travel_time=df['Trip Duration'].mean()
     print('Mean Travel Time: {}'.format(mean_travel_time))
 
@@ -157,7 +157,7 @@ def user_stats(df,city):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
-    # TO DO: Display counts of user types
+    
     print('\n User Type Count')
     print(df['User Type'].value_counts())
     
@@ -165,10 +165,10 @@ def user_stats(df,city):
     if city != 'washington':
     
         print('\n Gender Count')
-        # TO DO: Display counts of gender
+        # Display counts of gender
         print(df['Gender'].value_counts())
         print('\n')
-        # TO DO: Display earliest, most recent, and most common year of birth
+        #  Display earliest, most recent, and most common year of birth
         #Earliest value is the min , recent the max and most common the value with most counts
         earliest=df['Birth Year'].min()
         recent=df['Birth Year'].max()
