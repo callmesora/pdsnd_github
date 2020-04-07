@@ -1,0 +1,10 @@
+Just some of the websites pages I visited, unfortunatly I did not track every single one
+
+https://stackoverflow.com/questions/54434694/user-input-to-display-5-rows-at-a-time
+https://stackoverflow.com/questions/50337843/extract-file-name-from-read-csv-python
+https://stackoverflow.com/questions/46344772/valueerror-attempt-to-get-argmax-of-an-empty-sequence
+https://codereview.stackexchange.com/questions/149306/select-the-n-most-frequent-items-from-a-pandas-groupby-dataframe
+https://stackoverflow.com/questions/48590268/pandas-get-the-most-frequent-values-of-a-column/48590361
+https://stackoverflow.com/questions/31037298/pandas-get-column-average-mean
+https://pandas.pydata.org/pandas-docs/version/0.23.1/generated/pandas.DataFrame.head.html
+https://pandas.pydata.org/pandas-docs/version/0.23.1
