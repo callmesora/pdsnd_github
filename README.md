@@ -17,4 +17,5 @@ Python code to import US bike share data and answer interesting questions about 
 
 ### Credits
 Udacity mentors on the knowledge section helped a bunch, so big kuddos to them!
+Shout out to Juno Lee for connecting with me on linked in! Such a good sport
 
